@@ -1,48 +1,60 @@
 body{
-    background-color: rgb(245, 13, 60);
+    background-image:url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
 }
 h1{
     color: rgb(245, 245, 245);
     font-size: 40px;
     text-align:center;
-    text-decoration: underline;
     margin:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 .container{
     width:100%;
-    grid-template-columns: auto auto auto auto ;
+    grid-template-columns: 1fr 6fr 1fr ;
     grid-template-rows:80px auto 50 px;
     grid-gap:10px;
     display:grid;
     margin:0 auto;
-    background-color:rgb(216, 67, 13);
+    grid-gap: 10px;
 }
 .item1{
     float:left;
     grid-column: span 4;
     text-align: center;
     font-size: 20px;
+    border-radius: 30px;
+    background-color: grey;
 
 }
 .item2{
-    background-color: rgb(250, 250, 12);
+    background-color: rgb(95, 95, 90);
     font-size: 25px;
     color:black;
-    height: 1000px;
+    height: 600px;
     width: 300px;
     text-align: center;
+    border-radius: 30px;
 }
 .item3{
     float:right;
-    background-color: rgb(12, 245, 245);
+    background-color: rgb(69, 71, 71);
+    border-radius: 30px;
 }
 .item4{
-    background-color: rgb(138, 9, 138);
-    height: 1000px;
+    background-color: rgb(68, 64, 68);
+    height: 600px;
     width: 300px;
     font-size: 25px;
     text-align: center;
+    margin-right: auto;
+    border-radius: 30px;
+}
+.item5{
+    background-color: grey;
+    margin:auto;
+    
+    
 }
 ul{
     list-style-type: none;
@@ -52,6 +64,11 @@ ul{
 li{
     margin: 15px;
 }
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+}   
 
 
 
