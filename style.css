@@ -70,6 +70,56 @@ h1{
     font-family:'Times New Roman', Times, serif
     
 }
+.item6{
+    float:left;
+    grid-column: span 4;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: rgb(255, 145, 0);
+}
+.item7{
+    background-color: rgb(255, 145, 0);
+    font-size: 23px;
+    color:rgb(245, 245, 245);
+    height: 600px;
+    width: 300px;
+    text-align: center;
+    border-radius: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.item8{
+    float:right;
+    grid-column: span 3;
+    background-color: rgb(255, 145, 0);
+    border-radius: 30px;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color:rgb(245, 245, 245)
+}
+.item9{
+    background-color: rgb(255, 145, 0);
+    height: 600px;
+    width: 300px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: auto;
+    border-radius: 30px;
+    color: rgb(255, 145, 0);
+}
+.item10{
+    background-color:rgb(255, 145, 0);
+    margin:auto;
+    grid-row: 3;
+    grid-column: 1/4;
+    width: 100%;
+    height: 150px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif
+}
 ul{
     list-style-type: none;
     margin:0;
@@ -77,6 +127,11 @@ ul{
 }
 li{
     margin: 15px;
+}
+.recept{
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0;
 }
 a{
     font-size: 25px;
@@ -99,6 +154,7 @@ nav > ul{
     margin-left: auto;
     margin-right: auto;
 }
+
 
 
 
