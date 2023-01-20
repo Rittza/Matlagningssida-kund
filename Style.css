@@ -1,36 +1,36 @@
 body{
-    background-image:url(https://images.pexels.com/photos/39015/wheat-field-wheat-cereals-grain-39015.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-image:url(https://images.pexels.com/photos/39015/wheat-field-wheat-cereals-grain-39015.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); /*Bakgrunds bilden för webbsidan, som är lite matig*/
 }
-h1{
-    color: rgb(0, 0, 0);
-    font-size: 40px;
-    text-align:center;
-    margin:0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+h1{ /*I den här designar vi h1 i html dokumentet*/
+    color: rgb(0, 0, 0); /*Färgen av texten i h1*/
+    font-size: 40px; /*Storleken på texten*/
+    text-align:center; /*Vi centrerar texten på hemsidan*/
+    margin:0; /*Används för att göra rum runt h1 texten*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*Här är vilka fonter på texten vi använder*/
 }
-.container{
-    width:100%;
-    grid-template-columns: 1fr 6fr 1fr ;
-    grid-template-rows: 80px auto 50 px;
-    grid-gap:10px;
+.container{ /*Här är css:en för grid containern*/
+    width:100%; /* bredden på containern*/
+    grid-template-columns: 1fr 6fr 1fr ; /*Hur mycket plats de tre kolumnerna vill ha*/
+    grid-template-rows: 80px auto 50 px; /*definerar hur stor eller bred varje rad ska vara*/
+    grid-gap:10px; /*Mellanrum mellan griden*/
     display:grid;
-    margin:0 auto;
+    margin:0 auto; /*Gör lite rum runt elementen*/
     grid-gap: 10px;
 }
-.item1{
-    float:left;
-    grid-column: span 4;
+.item1{ /*Css på en av våra items*/
+    float:left; /*Används för att göra så item1 går till vänster*/
+    grid-column: span 4; /*anger gridens plats i kolumn och storlek*/
     text-align: center;
     font-size: 20px;
-    border-radius: 30px;
+    border-radius: 30px; /*Rundar hörnen på item griden*/
     background-color: rgb(255, 145, 0);
 }
 .item2{
     background-color: rgb(255, 145, 0);
     font-size: 18px;
-    color:rgb(0, 0, 0);
-    height: 600px;
-    width: 300px;
+    color:rgb(0, 0, 0); /*Text färgen*/
+    height: 600px; /*Hur hög item2 griden ska vara*/
+    width: 300px; /*Hur bred item2 griden ska vara*/
     text-align: center;
     border-radius: 30px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -38,7 +38,7 @@ h1{
 .item3{
     float:right;
     grid-column: span 3;
-    background-color: rgb(255, 145, 0);
+    background-color: rgb(255, 145, 0); /*Bakgrundsfärgen för det här itemet*/
     border-radius: 30px;
     font-size: 22px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -51,7 +51,7 @@ h1{
     width: 300px;
     font-size: 25px;
     text-align: center;
-    margin-right: auto;
+    margin-right: auto; /*Tar upp rest av vad som finns kvar på den sidan av griden*/
     border-radius: 30px;
     color: rgb(255, 145, 0);
 }
@@ -109,7 +109,7 @@ h1{
     background-color:rgb(255, 145, 0);
     margin:auto;
     grid-row: 3;
-    grid-column: 1/4;
+    grid-column: 1/4; /* Definierar position för itemet */
     width: 100%;
     height: 150px;
     border-radius: 30px;
@@ -124,7 +124,7 @@ h1{
     font-size:30px;
     text-align: center;
 }
-ul{
+ul{ /* Styling för listan */
     list-style-type: none;
     margin:0;
     padding:0;
@@ -132,7 +132,7 @@ ul{
 li{
     margin: 15px;
 }
-.recept{
+.recept{ /* class för recept lista */
     font-size: 25px;
     text-decoration: none;
     margin: 0;
@@ -144,11 +144,11 @@ nav > ul a{
     margin: 250px;
     border-radius: 5px;
 }
-nav > ul{
+nav > ul{ /* Sätter rätt poisiton för menyn i headern */
     display:flex;
     justify-self: center;
 }
-.pasta{
+.pasta{ /* Redigering för bilder */
     width: 550px;
     margin-left: 60%;
     padding: 10px;
