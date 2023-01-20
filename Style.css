@@ -7,13 +7,11 @@ h1{
     text-align:center;
     margin:0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-
 }
 .container{
     width:100%;
     grid-template-columns: 1fr 6fr 1fr ;
-    grid-template-rows:80px auto 50 px;
+    grid-template-rows: 80px auto 50 px;
     grid-gap:10px;
     display:grid;
     margin:0 auto;
@@ -26,11 +24,10 @@ h1{
     font-size: 20px;
     border-radius: 30px;
     background-color: rgb(255, 145, 0);
-
 }
 .item2{
     background-color: rgb(255, 145, 0);
-    font-size: 22px;
+    font-size: 21px;
     color:rgb(0, 0, 0);
     height: 600px;
     width: 300px;
@@ -45,7 +42,7 @@ h1{
     font-size: 22px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    color:rgb(0, 0, 0)
+    color:rgb(0, 0, 0) 
 }
 .item4{
     background-color: rgb(255, 145, 0);
@@ -67,8 +64,7 @@ h1{
     border-radius: 30px;
     text-align: center;
     font-size: 50px;
-    font-family:'Times New Roman', Times, serif
-    
+    font-family:'Times New Roman', Times, serif 
 }
 .item6{
     float:left;
@@ -96,7 +92,7 @@ h1{
     font-size: 22px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    color:rgb(0, 0, 0)
+    color:rgb(0, 0, 0) 
 }
 .item9{
     background-color: rgb(255, 145, 0);
@@ -118,7 +114,7 @@ h1{
     border-radius: 30px;
     text-align: center;
     font-size: 50px;
-    font-family:'Times New Roman', Times, serif
+    font-family:'Times New Roman', Times, serif 
 }
 .item11{
     background-color: rgb(255, 145, 0);
@@ -127,7 +123,6 @@ h1{
     font-size:30px;
     text-align: center;
 }
-
 ul{
     list-style-type: none;
     margin:0;
@@ -147,7 +142,6 @@ nav > ul a{
     color:rgb(20, 19, 19);
     margin: 250px;
     border-radius: 5px;
-
 }
 nav > ul{
     display:flex;
@@ -173,10 +167,5 @@ nav > ul{
     margin-top: 30px;
 }
 .color{
-    color:rgb(0, 0, 0)
+    color:rgb(0, 0, 0) 
 }
-
-
-
-
-
